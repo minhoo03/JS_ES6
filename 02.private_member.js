@@ -1,6 +1,6 @@
 // (캡슐화)
 // 협업 또는 혼자 개발하더라도
-// 바꿔선 안될 데이터를 변경하려는걸 방지
+// 바꿔선 안될 데이터를 변경하려는걸 방지.
 
 const obj = (() => {
     const _privateMember1 = Symbol('private1')
