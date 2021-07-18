@@ -1,4 +1,4 @@
-// (캡슐화)
+// (캡슐화) - 03.public과 비교
 // 협업 또는 혼자 개발하더라도
 // 바꿔선 안될 데이터를 변경하려는걸 방지.
 
@@ -16,4 +16,4 @@ const obj = (() => {
 
 // console.log(obj) // obj 출력 - 외부에서 보이긴 하지만 접근할 방법이 X
 // console.log(obj[Symbol('private1')]) // undifined // obj의 Symbol이 아닌 새로 생성된 Symbol을 부르게 되는 것
-// console.log(obj[_privateMember1]) // error
+console.log(obj[_privateMember1]) // error
