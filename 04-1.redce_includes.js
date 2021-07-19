@@ -6,6 +6,7 @@
 const a = [1, 2, 3, 4, 5, 3, 2, 5, 4]
 
 // 첫 번째 인자 q를 b에 return
+// 중복을 제외한 값을 push 하기 위한 식
 const b = a.reduce((q, w) => {
     if(q.includes(w)) return q
     q.push(w)
@@ -13,3 +14,8 @@ const b = a.reduce((q, w) => {
 }, [])
 
 console.log(b)
+
+// Set : 하지만 Set은 처음부터 중복을 허용하지 않는다.
+const c = new Set(a)
+
+console.log(c)

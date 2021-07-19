@@ -1,0 +1,4 @@
+// iterable: iterator를 리턴하는 [Symbol.iterator]()을 가진값
+// iterator: 순회 가능한 객체, {value, done} 객체를 리턴하는 next()를 가진 값
+// next는 각 단계의 value와 단계를 끝냈는지 알려주는 done 반환
+// https://n-log.tistory.com/21
